@@ -1,12 +1,10 @@
-GBL-EPV update (`2026-11-22_0727`):
+GBL-EPV update (`2026-11-23_0645`):
 
-- **Expounded `G6490` (`κόριον`) and lemma page `κόριον` (`tid=7487`, `tid=7486`):**
-  - Updated the `κόριον` lemma header gloss from `— little girl` to `— coriander, coriander seed; afterbirth (variant of χόριον); little girl`.
-  - Added a numbered **`Definition:`** section to `G6490` above `LSJ Definition:` covering all three senses:
-    1. **coriander, coriander seed** (*Coriandrum sativum*; shortened form of `κορίαννον`): an aromatic herb whose small, round, pale seeds are used as a spice; in the Septuagint, used to describe the fine, round, seed-like appearance of the manna in the wilderness (Exod 16:14, 31; Num 11:7).
-    2. **afterbirth, placenta** (as a spelling variant of `χόριον`, fetal membrane / chorion, read in Rahlfs and Swete where Brenton has `κόριον`): the afterbirth expelled after childbirth (Deut 28:57).
-    3. **little girl, maiden** (classical Greek diminutive of `κόρη`; not attested in the Septuagint).
-  - Updated `content_search`, `config.version.date` (`2026-11-22`), and `config.editorial.comments` (`PRAGMA integrity_check = ok`).
-- **Includes all `2026-11-21_1850` and `2026-11-20_2123` updates:** TWOT and raw Gill footnote marker cleanup, `G25` LSJ gloss separation, 327 relabeled entries, attribution & licensing updates (`LICENSE`, `README.md`, `config.about`, `Appendix`), 4 converted RVF binary LSJ blocks, word-index fixes, and `G13150–G15737` Deuterocanon expansion.
+- **Full multi-book Deuterocanon definition audit & expansion (30 entries upgraded):**
+  - **Deuterocanon-tagged proper names (15 entries, including `G11259`):** Expanded every canonical/NT proper name reused in the Deuterocanon (`G1695` Emmaus, `G4681` Spain, `G9162` Ophir, `G9909` Jeriel, `G10310` Jeremoth, `G10443` Shelomith, `G10683` Darius, `G10745` Hakkatan, `G10854` Hassenaah/Assana, `G10946` Chephirah, `G11026` Hashabiah, `G11071` Jaddua/Jaddus, `G11259` Dositheus, `G12356` Kittim, `G12520` Charmis) so each `Definition:` covers all books where it occurs (`1 Esdras`, `Tobit`, `Judith`, `1–3 Maccabees`). `G11259` (`Δωσίθεος`) now defines the `Esth 10:3` priest/Levite, the `2 Macc 12:19, 24, 35` Maccabean officer and horseman, and `3 Macc 1:3` (Dositheus son of Drimylus who saved Ptolemy IV Philopator).
+  - **Adjacent Esther-colophon proper names (3 entries):** Expanded `G11257` (`Πτολεμαῖος`), `G11258` (`Κλεοπάτρα`), and `G11260` (`Λυσίμαχος`) beyond `Esth 10:3` to cover their referents across `1 Macc`, `2 Macc`, and `3 Macc`.
+  - **Replaced all 10 generic Deuterocanon stub definitions:** Upgraded `G13516` (Assyria), `G13641` (Bosora), `G13657` (Galatians), `G14314` (Judith), `G14345` (Kadmiel), `G14631`/`G14632` (Media), `G14682` (Moses), `G15090` (Zadok), and `G15284` (Tarsians) with complete book-grounded definitions (0 stubs remaining).
+  - **Additional fixes & polish:** Added `Sir 24:25` and `proper name location` to `G5642` (Pishon), added `Part of Speech: verb` and `2 Macc 3:29` definition to `G5988` (`στερέω`), fixed `"1 verses"` → `"1 verse"` across 6 entries, and verified `PRAGMA integrity_check = ok`.
+- **Includes all `2026-11-22_0815` updates:** Added concise numbered `Definition:` sections across 3,772 LSJ-backed entries, plus all `2026-11-22_0727` (`G6490` `κόριον`), `2026-11-21_1850`, and `2026-11-20_2123` updates.
 
-Unzip `GBL-EPV_2026-11-22_0727.dct.zip` and place `GBL-EPV_2026-11-22_0727.dct.twm` in your theWord `Modules` folder.
+Unzip `GBL-EPV_2026-11-23_0645.dct.zip` and place `GBL-EPV_2026-11-23_0645.dct.twm` in your theWord `Modules` folder.
