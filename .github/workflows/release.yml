@@ -7,7 +7,7 @@ on:
       - 'GBL-EPV_*.dct.zip'
       - 'epv-thayer-kjv_*.dct.zip'
       - 'RELEASE_NOTES.md'
-      - 'tools/apply_deuterocanon_defs.py'
+      - 'tools/apply_homonym_defs.py'
   workflow_dispatch:
 
 permissions:
@@ -18,15 +18,15 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - name: Build and push 2026-11-23_0645 Deuterocanon definitions update
+      - name: Build and push 2026-11-23_0805 homonym definitions update
         run: |
-          if [ ! -f "GBL-EPV_2026-11-23_0645.dct.zip" ]; then
-            python3 tools/apply_deuterocanon_defs.py
-            rm -f GBL-EPV_2026-11-22_0727.dct.zip
+          if [ ! -f "GBL-EPV_2026-11-23_0805.dct.zip" ]; then
+            python3 tools/apply_homonym_defs.py
+            rm -f GBL-EPV_2026-11-23_0645.dct.zip
             git config user.name "github-actions[bot]"
             git config user.email "github-actions[bot]@users.noreply.github.com"
             git add -A
-            git commit -m "Build GBL-EPV_2026-11-23_0645.dct.zip"
+            git commit -m "Build GBL-EPV_2026-11-23_0805.dct.zip"
             git push origin main
           fi
       - name: Create the release for the newest dictionary file
